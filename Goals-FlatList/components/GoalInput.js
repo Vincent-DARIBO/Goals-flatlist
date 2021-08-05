@@ -12,7 +12,7 @@ const GoalInput = (props) => {
     setEnteredGoal("");
   };
   return (
-    <Modal anitmationTYpe="fade" visible={props.visible}>
+    <Modal animationType="fade" visible={props.visible}>
       <View style={styles.inputContainer}>
         <TextInput
           placeholder="Course Goal"
